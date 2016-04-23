@@ -5,17 +5,22 @@ body{
 }
 
 .text-overlay{
-  display: table;
   margin: auto;
-  background-color: white;
-  opacity: .7;
+  background: rgba(255,255,255,0.7);
   width: 50%;
   height: 450px;
 }
 
 .text-details{
-  display: table-cell;
   font-size: 50px;
   text-align: center;
   vertical-align: middle;
+}
+
+.tako-image{
+  margin: auto;
+  width: 50%;
+  img {
+    width: 100%;
+  }
 }
