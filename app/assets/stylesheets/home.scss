@@ -3,3 +3,19 @@ body{
   background: url("https://s3.amazonaws.com/linda-web/home_image.jpg");
   background-size: 20% ;
 }
+
+.text-overlay{
+  display: table;
+  margin: auto;
+  background-color: white;
+  opacity: .7;
+  width: 50%;
+  height: 450px;
+}
+
+.text-details{
+  display: table-cell;
+  font-size: 50px;
+  text-align: center;
+  vertical-align: middle;
+}
