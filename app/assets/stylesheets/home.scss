@@ -1,20 +1,5 @@
-img{
-  width: 50%;
-}
-.image-container{
-  position: relative;
-}
-.middle-image {
-  float: left;
-}
-.intro-text{
-  position: absolute;
-  font-size: 45px;
-  top:415px;
-  right: 250px;
-}
-.speech-bubble{
-  position: absolute;
-  top:260px;
-  right: 200px;
+
+body{
+  background: url("https://s3.amazonaws.com/linda-web/home_image.jpg");
+  background-size: 20% ;
 }
