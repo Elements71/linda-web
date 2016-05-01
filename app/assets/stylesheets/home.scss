@@ -8,8 +8,7 @@ body{
   position: absolute;
   left: 50%;
   top: 50%;
-  //margin: auto;
-  background: rgba(255,255,255,0.7);
+    background: rgba(255,255,255,0.7);
   width: 50%;
   padding-bottom: 20px;
   transform: translate(-50%, -50%);
@@ -21,10 +20,16 @@ body{
   vertical-align: middle;
 }
 
-.tako-image{
+.tako-image, .pt-image{
+  float: left;
   margin: auto;
   width: 50%;
   img {
     width: 100%;
   }
+}
+
+.pt-image{
+  background: black;
+  padding-top: 5px;
 }
